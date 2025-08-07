@@ -2,57 +2,59 @@
 
 ---
 
-## Choisissez votre langue / Choose your language
+## Choose your language
 
-- [Français](README-fr.md)
-- [English](README-en.md)
+- [French](README-FR.md)
+- [English](README-EN.md)
 
-#2. README-fr.md (français complet avec section documentation)
+#2. README-fr.md (complete French with documentation section)
 markdown
-Copier
-Modifier
+Copy
+Edit
 # FuncScript
 
-## Qu'est-ce que FuncScript ?
+## What is FuncScript?
 
-FuncScript est un langage de script léger conçu pour être intégré directement dans les pages HTML via une balise personnalisée `<fscript>`.  
-Il vous permet d’écrire des scripts avec une syntaxe simple et lisible, inspirée de Scratch, qui s’exécute dans le navigateur.  
-Vous pouvez créer et manipuler des éléments HTML, appliquer des styles, sans écrire du JavaScript brut.
+FuncScript is a lightweight scripting language designed to be embedded directly into HTML pages via a custom `<fscript>` tag.
 
-## Comment utiliser FuncScript ?
+It allows you to write scripts with a simple and readable syntax, inspired by Scratch, that runs in the browser.
 
-1. Incluez la librairie FuncScript dans la section `<head>` de votre page HTML :
+You can create and manipulate HTML elements, and apply styles, without writing raw JavaScript.
+
+## How to use FuncScript?
+
+1. Include the FuncScript library in the `<head>` section of your HTML page:
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/Reqeuss-html/FuncScript@33a076b84320efd485f6a52b72680edd5a48b131/javascript/funcscript/release/funcscript-v0.1.js"></script>
 ```
 
-Écrivez votre code FuncScript dans une balise <fscript> n’importe où dans le corps du document :
+Write your FuncScript code in an <fscript> tag anywhere in the body of the document:
 
 ```html
 <fscript>
-create div title "Bienvenue !"
+create div title "Welcome!"
 setStyle title "fontSize" "36px"
 setStyle title "textAlign" "center"
 </fscript>
 ```
 
-Le script s’exécutera automatiquement au chargement de la page, créant les éléments et appliquant les styles.
+The script will run automatically when the page loads, creating the elements and applying the styles.
 
-Fonctionnalités
-Syntaxe simple et lisible
+Features
+Simple and readable syntax
 
-Manipulation directe des éléments HTML et des styles CSS
+Direct manipulation of HTML elements and CSS styles
 
-Pas besoin d’écrire du JavaScript
+No need to write JavaScript
 
-Compatible avec HTML et CSS
+Compatible with HTML and CSS
 
-Facile à intégrer sur n’importe quel site web
+Easy to integrate into any website
 
 Documentation
-Pour la documentation complète, les exemples et les guides, visitez :
+For full documentation, examples, and guides, visit:
 🌐 [https://INDISPONIBLE.com](https://INDISPONIBLE.com)
 
-Licence
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE.md) pour plus de détails.
+License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
